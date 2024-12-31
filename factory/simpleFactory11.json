@@ -1,0 +1,9 @@
+{
+	"name": "simpleFactory11",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "87f1caf6-91e7-4b15-89f8-928ec5ca1240",
+		"tenantId": "8571b8d1-14a3-4d09-82ec-2e2b588aa873"
+	}
+}
