@@ -1,5 +1,5 @@
 {
-	"name": "DelimitedText1",
+	"name": "emptyDatasetinAdlsgen2",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureDataLakeStorage1",
@@ -10,6 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"folderPath": "copiedcsv/tablesfromsql",
 				"fileSystem": "samplestore"
 			},
 			"columnDelimiter": ",",
