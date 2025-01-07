@@ -5,7 +5,7 @@
 		"type": "AzureSqlDatabase",
 		"typeProperties": {
 			"server": "kranthiserver.database.windows.net",
-			"database": "exploredb",
+			"database": "master",
 			"encrypt": "mandatory",
 			"trustServerCertificate": false,
 			"authenticationType": "SQL",
