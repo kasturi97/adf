@@ -1,0 +1,23 @@
+{
+	"name": "AzureSqlDatabase2",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "kranthiserver.database.windows.net",
+			"database": "exploredb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "kranthi",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "AzureKeyVault1",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "Asql"
+			}
+		}
+	}
+}
